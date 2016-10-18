@@ -151,7 +151,7 @@ namespace AnimalShelter
             }
         }
 
-        private static void CheckFile(string fileName)
+        public static void CheckFile(string fileName)
         {
             if (fileName.Trim().Length <= 0)
             {
