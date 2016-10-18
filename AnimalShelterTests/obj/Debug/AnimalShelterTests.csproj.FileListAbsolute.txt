@@ -1,50 +1,8 @@
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
-C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 4\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
-C:\Users\marij\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
-C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
-<<<<<<< HEAD
+C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
+C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
+C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
+C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
 C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
 C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
 C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
-=======
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
-C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
->>>>>>> 61a9dc743996b4b1793a9ce82be2ba0f924f0c3f
