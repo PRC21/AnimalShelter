@@ -46,5 +46,10 @@ C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\A
 C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.AdministrationForm.resources
 C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.Properties.Resources.resources
 C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.exe
 C:\Users\Boons\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.pdb
+=======
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.exe
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.pdb
+>>>>>>> 61a9dc743996b4b1793a9ce82be2ba0f924f0c3f
