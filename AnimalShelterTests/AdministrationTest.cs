@@ -29,7 +29,7 @@ namespace AnimalShelterTests
         public void TestFindAnimal()
         {
             testAdministration.FindAnimal(1);
-            Assert.IsTrue(testAdministration.FindAnimal(1));
+            Assert.Equals(testAdministration.FindAnimal(1), ;
         }
     }
 }

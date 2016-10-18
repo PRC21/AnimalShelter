@@ -33,3 +33,12 @@ C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\Ani
 C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
 C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
 C:\Users\Marijn\Dropbox\Robin Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.csprojResolveAssemblyReference.cache
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.dll
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\obj\Debug\AnimalShelterTests.pdb
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.dll
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelterTests.pdb
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.exe
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\AnimalShelter.pdb
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelterTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

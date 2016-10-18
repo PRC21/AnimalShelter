@@ -46,3 +46,5 @@ C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\A
 C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.AdministrationForm.resources
 C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.Properties.Resources.resources
 C:\Users\Boons\Dropbox\Robin en Marijn\PRC21\Week 5\PRC21 - W4 - AnimalShelter\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.csproj.GenerateResource.Cache
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.exe
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.pdb
