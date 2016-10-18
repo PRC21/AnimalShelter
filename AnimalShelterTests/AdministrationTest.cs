@@ -29,6 +29,7 @@ namespace AnimalShelterTests
         [TestMethod]
         public void TestFindAnimal()
         {
+            testAdministration.Add(testKat1);
             testAdministration.FindAnimal(2);
             Assert.AreEqual(testAdministration.FindAnimal(2), (testKat1));
         }
