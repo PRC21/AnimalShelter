@@ -10,6 +10,7 @@ namespace AnimalShelterTests
         //private List<Animal> TestAnimals = new List<Animal>();
         Dog testHond = new Dog(1, new SimpleDate(15, 4, 2001), "bassie", new SimpleDate(16, 4, 2001));
         Cat testKat = new Cat(1, new SimpleDate(15, 4, 2001), "bassie", "Krabt veel");
+        Cat testKat1 = new Cat(2, new SimpleDate(15, 4, 2001), "bassie", "Krabt veel");
 
         [TestMethod]
         public void TestAddAnimal()
@@ -29,7 +30,7 @@ namespace AnimalShelterTests
         public void TestFindAnimal()
         {
             testAdministration.FindAnimal(1);
-            Assert.Equals(testAdministration.FindAnimal(1), ;
+            Assert.AreEqual(testAdministration.FindAnimal(1), (1, new SimpleDate(15, 4, 2001), "bassie", "Krabt veel");
         }
     }
 }
