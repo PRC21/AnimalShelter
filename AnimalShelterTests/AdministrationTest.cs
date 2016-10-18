@@ -29,14 +29,16 @@ namespace AnimalShelterTests
         public void TestFindAnimal()
         {
             testAdministration.FindAnimal(1);
-<<<<<<< HEAD
             //Assert.IsTrue(testAdministration.FindAnimal(1));
-=======
-            Assert.Equals(testAdministration.FindAnimal(1), ;
->>>>>>> 61a9dc743996b4b1793a9ce82be2ba0f924f0c3f
+
+            //Assert.Equals(testAdministration.FindAnimal(1), ;
+
         }
 
         [TestMethod]
-        public void Test
+        public void Test()
+        {
+            
+        }
     }
 }
