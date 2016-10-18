@@ -17,5 +17,4 @@ C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\Animal
 C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.AdministrationForm.resources
 C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.Properties.Resources.resources
 C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.csproj.GenerateResource.Cache
-=======
 >>>>>>> 8f51a7c461a7187ed2ca2e0225314f981c8b13d1

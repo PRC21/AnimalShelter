@@ -40,6 +40,13 @@ namespace AnimalShelterTests
         }
 
         [TestMethod]
+        public void TestFindAnimalResult()
+        {
+            testAdministration.Add(testKat1);
+            Assert.AreNotEqual(testAdministration.FindAnimal(3), testKat1);
+        }
+
+        [TestMethod]
         public void TestExportFile()
         {
             testAdministration.Add(testHond);
