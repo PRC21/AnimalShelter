@@ -14,6 +14,8 @@ namespace AnimalShelter
                                     "exportedAnimalShelter.txt";
         public Administration Administration { get; private set; }
 
+        enum Refreshes : int { Add = 0, Find = 1, Reserve = 2 };
+
         private void IsReserved(bool isReserved)
         {
             Animal animal = Administration.FindAnimal((int)nudChipRegistrationNumber.Value);
@@ -57,7 +59,8 @@ namespace AnimalShelter
                     {
                         lbUnreserved.Items.Add(cat);
                     }
-                    RefreshFormInputFields(1);
+                    //RefreshFormInputFields(Refreshes.Add);
+                    RefreshFormInputFields(0);
                 } 
                 else if (rbDog.Checked)
                 {
@@ -67,7 +70,7 @@ namespace AnimalShelter
                     {
                         lbUnreserved.Items.Add(dog);
                     }
-                    RefreshFormInputFields(1);
+                    RefreshFormInputFields(0);
                 }
                 else
                 {
@@ -84,14 +87,14 @@ namespace AnimalShelter
         private void btnReserve_Click(object sender, EventArgs e)
         {
             IsReserved(true);
-            RefreshFormInputFields(2);
+            RefreshFormInputFields(1);
         }
 
         // Onderstaande methode aanpassen, zodat de Administration.FindAnimal kan worden gebruikt
         private void btnUnReserve_Click(object sender, EventArgs e)
         {
             IsReserved(false);
-            RefreshFormInputFields(2);
+            RefreshFormInputFields(1);
         }
         
         private void btnDelete_Click(object sender, EventArgs e)
@@ -101,7 +104,7 @@ namespace AnimalShelter
             if (Int32.TryParse(nudChipRegistrationNumber.Text, out result))
             {
                 Administration.RemoveAnimal(result);
-                RefreshFormInputFields(2);
+                RefreshFormInputFields(1);
             }
             else
             {
@@ -115,7 +118,7 @@ namespace AnimalShelter
             if (Int32.TryParse(tbFindAnimal.Text, out result))
             {
                 lblFindAnimalResult.Text = Administration.FindAnimal(result).ToString();
-                RefreshFormInputFields(3);
+                RefreshFormInputFields(2);
             }
             else
             {
@@ -123,9 +126,9 @@ namespace AnimalShelter
             }
         }
 
-        private void RefreshFormInputFields(int selectedButton)
+        private void RefreshFormInputFields(int refreshLocatie)
         {
-            if (selectedButton == 1)
+            if (refreshLocatie == 0)
             {
                 rbCat.Checked = false;
                 rbDog.Checked = false;
@@ -135,7 +138,7 @@ namespace AnimalShelter
                 dtpLastWalkDate.ResetText();
                 tbBadHabits.ResetText();
             }
-            else if (selectedButton == 2)
+            else if (refreshLocatie == 1)
             {
                 lbReserved.Items.Clear();
                 lbUnreserved.Items.Clear();
@@ -151,7 +154,7 @@ namespace AnimalShelter
                     }
                 }
             }
-            else if (selectedButton == 3)
+            else if (refreshLocatie == 2)
             {
                 tbFindAnimal.ResetText();
             }
