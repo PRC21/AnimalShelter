@@ -29,23 +29,8 @@ namespace AnimalShelterTests
         [TestMethod]
         public void TestFindAnimal()
         {
-            testAdministration.FindAnimal(1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Assert.AreEqual(testAdministration.FindAnimal(1), (1, new SimpleDate(15, 4, 2001), "bassie", "Krabt veel");
-=======
-<<<<<<< HEAD
-            //Assert.IsTrue(testAdministration.FindAnimal(1));
-=======
-            Assert.Equals(testAdministration.FindAnimal(1), ;
->>>>>>> 61a9dc743996b4b1793a9ce82be2ba0f924f0c3f
->>>>>>> origin/master
-=======
-            //Assert.IsTrue(testAdministration.FindAnimal(1));
-
-            //Assert.Equals(testAdministration.FindAnimal(1), ;
-
->>>>>>> origin/master
+            testAdministration.FindAnimal(2);
+            Assert.AreEqual(testAdministration.FindAnimal(2), (testKat1));
         }
 
         [TestMethod]
