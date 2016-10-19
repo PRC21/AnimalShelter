@@ -292,6 +292,11 @@
             // nudChipRegistrationNumber
             // 
             this.nudChipRegistrationNumber.Location = new System.Drawing.Point(445, 135);
+            this.nudChipRegistrationNumber.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.nudChipRegistrationNumber.Name = "nudChipRegistrationNumber";
             this.nudChipRegistrationNumber.Size = new System.Drawing.Size(120, 20);
             this.nudChipRegistrationNumber.TabIndex = 22;

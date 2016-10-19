@@ -56,6 +56,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="Cat.cs" />
     <Compile Include="ISellable.cs" />
+    <Compile Include="Refreshes.cs" />
     <Compile Include="SimpleDate.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />

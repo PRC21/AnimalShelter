@@ -14,6 +14,8 @@ namespace AnimalShelter
                                     "exportedAnimalShelter.txt";
         public Administration Administration { get; private set; }
 
+        public Refreshes RefreshForm { get; set; }
+
         private void IsReserved(bool isReserved)
         {
             Animal animal = Administration.FindAnimal((int)nudChipRegistrationNumber.Value);
@@ -37,8 +39,10 @@ namespace AnimalShelter
             Administration.Animals.Add(new Cat(2, new SimpleDate(3, 9, 2010), "Felix", "Grumpy"));
             Administration.Animals.Add(new Cat(3, new SimpleDate(17, 12, 1995), "Poekie", ""));
             Administration.Animals.Add(new Dog(5, new SimpleDate(6, 7, 2005), "Blaffie", new SimpleDate(29, 9, 2015)));
-            RefreshFormInputFields(2);
+            RefreshForm = Refreshes.EnumReserveAnimal;
+            RefreshFormInputFields(RefreshForm);
             Administration.Export(exportFile);
+            RefreshForm = new Refreshes();
         }
         private void createAnimalButton_Click(object sender, EventArgs e)
         {
@@ -57,7 +61,8 @@ namespace AnimalShelter
                     {
                         lbUnreserved.Items.Add(cat);
                     }
-                    RefreshFormInputFields(1);
+                    RefreshForm = Refreshes.EnumAddAnimal;
+                    RefreshFormInputFields(RefreshForm);
                 } 
                 else if (rbDog.Checked)
                 {
@@ -67,7 +72,8 @@ namespace AnimalShelter
                     {
                         lbUnreserved.Items.Add(dog);
                     }
-                    RefreshFormInputFields(1);
+                    RefreshForm = Refreshes.EnumAddAnimal;
+                    RefreshFormInputFields(RefreshForm);
                 }
                 else
                 {
@@ -84,14 +90,16 @@ namespace AnimalShelter
         private void btnReserve_Click(object sender, EventArgs e)
         {
             IsReserved(true);
-            RefreshFormInputFields(2);
+            RefreshForm = Refreshes.EnumReserveAnimal;
+            RefreshFormInputFields(RefreshForm);
         }
 
         // Onderstaande methode aanpassen, zodat de Administration.FindAnimal kan worden gebruikt
         private void btnUnReserve_Click(object sender, EventArgs e)
         {
             IsReserved(false);
-            RefreshFormInputFields(2);
+            RefreshForm = Refreshes.EnumReserveAnimal;
+            RefreshFormInputFields(RefreshForm);
         }
         
         private void btnDelete_Click(object sender, EventArgs e)
@@ -101,7 +109,8 @@ namespace AnimalShelter
             if (Int32.TryParse(nudChipRegistrationNumber.Text, out result))
             {
                 Administration.RemoveAnimal(result);
-                RefreshFormInputFields(2);
+                RefreshForm = Refreshes.EnumFindAnimal;
+                RefreshFormInputFields(RefreshForm);
             }
             else
             {
@@ -115,7 +124,8 @@ namespace AnimalShelter
             if (Int32.TryParse(tbFindAnimal.Text, out result))
             {
                 lblFindAnimalResult.Text = Administration.FindAnimal(result).ToString();
-                RefreshFormInputFields(3);
+                RefreshForm = Refreshes.EnumReserveAnimal;
+                RefreshFormInputFields(RefreshForm);
             }
             else
             {
@@ -123,9 +133,9 @@ namespace AnimalShelter
             }
         }
 
-        private void RefreshFormInputFields(int selectedButton)
+        private void RefreshFormInputFields(Refreshes refreshLocatie)
         {
-            if (selectedButton == 1)
+            if (refreshLocatie == Refreshes.EnumAddAnimal)
             {
                 rbCat.Checked = false;
                 rbDog.Checked = false;
@@ -135,7 +145,7 @@ namespace AnimalShelter
                 dtpLastWalkDate.ResetText();
                 tbBadHabits.ResetText();
             }
-            else if (selectedButton == 2)
+            else if (refreshLocatie == Refreshes.EnumReserveAnimal)
             {
                 lbReserved.Items.Clear();
                 lbUnreserved.Items.Clear();
@@ -151,7 +161,7 @@ namespace AnimalShelter
                     }
                 }
             }
-            else if (selectedButton == 3)
+            else if (refreshLocatie == Refreshes.EnumFindAnimal)
             {
                 tbFindAnimal.ResetText();
             }
