@@ -2,6 +2,7 @@
 
 namespace AnimalShelter
 {
+    [Serializable]
     public class SimpleDate
     {
         private DateTime date;
