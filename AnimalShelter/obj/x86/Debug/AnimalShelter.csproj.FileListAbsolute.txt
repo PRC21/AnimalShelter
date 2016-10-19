@@ -6,3 +6,11 @@ C:\Users\Marijn\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\Anima
 C:\Users\Marijn\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.csproj.GenerateResource.Cache
 C:\Users\Marijn\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.exe
 C:\Users\Marijn\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.pdb
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.csprojResolveAssemblyReference.cache
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.AdministrationForm.resources
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.Properties.Resources.resources
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.csproj.GenerateResource.Cache
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.exe
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\obj\x86\Debug\AnimalShelter.pdb
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\bin\Debug\AnimalShelter.exe
+C:\Users\marij\Documents\GitHub\AnimalShelter\AnimalShelter\bin\Debug\AnimalShelter.pdb
