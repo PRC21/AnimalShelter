@@ -109,7 +109,7 @@ namespace AnimalShelter
             if (Int32.TryParse(nudChipRegistrationNumber.Text, out result))
             {
                 Administration.RemoveAnimal(result);
-                RefreshForm = Refreshes.EnumFindAnimal;
+                RefreshForm = Refreshes.EnumReserveAnimal;
                 RefreshFormInputFields(RefreshForm);
             }
             else
