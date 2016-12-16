@@ -141,11 +141,11 @@ namespace AnimalShelter
                 {
                     if (existingAnimal is Dog)
                     {
-                        streamWriter.WriteLine("Dog: " + existingAnimal.ToString());
+                        streamWriter.WriteLine("Dog: " + existingAnimal);
                     }
                     else if (existingAnimal is Cat)
                     {
-                        streamWriter.WriteLine("Cat: " + existingAnimal.ToString());
+                        streamWriter.WriteLine("Cat: " + existingAnimal);
                     }
                 }
             }

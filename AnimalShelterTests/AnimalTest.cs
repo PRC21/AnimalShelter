@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AnimalShelter;
 
@@ -41,6 +42,13 @@ namespace AnimalShelterTests
 
             CollectionAssert.AreEqual(AnimalTestSorted, AnimalTestUnSorted);
 
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void TestAnimalArgumentNullException()
+        {
+            Dog testHond4 = new Dog(18, new SimpleDate(15, 4, 2001), null, new SimpleDate(16, 4, 2000));
         }
     }
 }

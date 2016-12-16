@@ -14,7 +14,7 @@ namespace AnimalShelter
                                     "exportedAnimalShelter.txt";
         public Administration Administration { get; private set; }
 
-        public Refreshes RefreshForm { get; set; }
+        private Refreshes RefreshForm { get; set; }
 
         private void IsReserved(bool isReserved)
         {
@@ -39,8 +39,7 @@ namespace AnimalShelter
             Administration.Animals.Add(new Cat(2, new SimpleDate(3, 9, 2010), "Felix", "Grumpy"));
             Administration.Animals.Add(new Cat(3, new SimpleDate(17, 12, 1995), "Poekie", ""));
             Administration.Animals.Add(new Dog(5, new SimpleDate(6, 7, 2005), "Blaffie", new SimpleDate(29, 9, 2015)));
-            RefreshForm = Refreshes.EnumReserveAnimal;
-            RefreshFormInputFields(RefreshForm);
+            RefreshFormInputFields(Refreshes.EnumReserveAnimal);
             Administration.Export(exportFile);
             RefreshForm = new Refreshes();
         }

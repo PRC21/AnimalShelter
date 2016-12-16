@@ -7,8 +7,8 @@ namespace AnimalShelter
 {
     public enum Refreshes
     {
-        EnumAddAnimal = 0,
-        EnumFindAnimal = 1,
-        EnumReserveAnimal = 2
+        EnumAddAnimal ,
+        EnumFindAnimal ,
+        EnumReserveAnimal 
     }
 }
