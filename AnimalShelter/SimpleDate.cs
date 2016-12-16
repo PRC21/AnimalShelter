@@ -8,10 +8,7 @@ namespace AnimalShelter
         private DateTime date;
         public SimpleDate(int day, int month, int Year)
         {
-            if(date < DateTime.Today)
-            {
-                date = new DateTime(Year, month, day);
-            }
+            date = new DateTime(Year, month, day);
         }
         public int Day
         {

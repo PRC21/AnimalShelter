@@ -12,7 +12,7 @@ namespace AnimalShelter
         public override decimal Price { get { return CalculatePrice(ChipRegistrationNumber); } }
         public Dog(int chipRegistrationNumber, SimpleDate dateOfBirth,
                    string name, SimpleDate lastWalkDate):base(chipRegistrationNumber, dateOfBirth, name)
-        {   //null check nog doen
+        {
             LastWalkDate = lastWalkDate;
         }
 

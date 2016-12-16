@@ -17,13 +17,19 @@ namespace AnimalShelter
 
         protected Animal(int chipRegistrationNumber, SimpleDate dateOfBirth, string name)
         {
-            if (chipRegistrationNumber != 0 && name != null) //&& dateOfBirth.Day <= (DateTime.Today.Day) && dateOfBirth.Month != DateTime.Today.Month && dateOfBirth.Year != DateTime.Today.Year) //null check birthday
+            if (chipRegistrationNumber == 0)
             {
-                ChipRegistrationNumber = chipRegistrationNumber;
-                DateOfBirth = dateOfBirth;
-                Name = name;
-                IsReserved = false;
+                throw new ArgumentOutOfRangeException("ChipregistrationNumber moet groter zijn dan 0");
+                
             }
+            if (name == null)
+            {
+                throw new ArgumentNullException("name");
+            }
+            ChipRegistrationNumber = chipRegistrationNumber;
+            DateOfBirth = dateOfBirth;
+            Name = name;
+            IsReserved = false;
         }
 
         public override string ToString()
